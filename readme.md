@@ -4,6 +4,7 @@ add cron
 
 sudo crontab -e
 
-
+```
 @reboot sudo python -u ~/temp/temp.py &
 */20 * * * * sudo ~/temp/kontroll.sh
+```
